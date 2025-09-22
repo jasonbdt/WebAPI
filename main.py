@@ -10,6 +10,7 @@ def get_pokemon_info(pokemon: str):
 
 
 def main() -> None:
+    print("PokeAPI")
     pikachu = get_pokemon_info("Pikachu")
     print(pikachu)
 
