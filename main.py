@@ -11,10 +11,7 @@ def get_pokemon_info(pokemon: str):
 
 def main() -> None:
     pikachu = get_pokemon_info("Pikachu")
-    #bulbasaur = get_pokemon_info("Bulbasaur")
-
     print(pikachu)
-    #print(bulbasaur)
 
 
 if __name__ == '__main__':
